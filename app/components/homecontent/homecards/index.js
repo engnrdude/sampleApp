@@ -11,8 +11,8 @@ const ContentCards = () => {
       <Row gutter={[24, 24]}>
         {HomeCardsData.map((e) => {
           return (
-            <Col span={24} key={e?.id}>
-              <Card className="content-detail-card">
+            <Col span={24}>
+              <Card className="content-detail-card" key={e?.id}>
                 <div className="detail-card-header-section">
                   <div className="left-section">
                     <Image src={e?.logo} alt="Company 1" />
