@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-
+const withTM = require('next-transpile-modules')(['rc-util']);
 
 const nextConfig = {
   reactStrictMode: true,
@@ -18,6 +18,8 @@ const nextConfig = {
     return config;
   },
 }
-
+module.exports = withTM({
+  reactStrictMode: true,
+});
 module.exports = nextConfig
 
