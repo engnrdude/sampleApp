@@ -3,6 +3,7 @@ import { HomeCardsData } from "../helperfunction";
 import { Col, Row, Card, Space, Rate, Divider, Button } from "antd";
 import { ArrowRightOutlined } from "@ant-design/icons";
 import Image from "next/image";
+import "./styles.scss"
 
 const ContentCards = () => {
   return (

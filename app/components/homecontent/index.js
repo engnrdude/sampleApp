@@ -8,6 +8,7 @@ import {
   UnorderedListOutlined,
 } from "@ant-design/icons";
 import HomeContent from "./contentSection";
+import "./styles.scss"
 
 const HomeContainer = () => {
   const [filterOpen, setFilterOpen] = useState(true);

@@ -1,7 +1,7 @@
 import { Card, Divider, Select, Checkbox } from "antd";
 import { WifiOutlined } from "@ant-design/icons";
 import React from "react";
-
+import "./styles.scss"
 const FilterDetail = ({ filterOpen, setFilterOpen }) => {
   return (
     <>

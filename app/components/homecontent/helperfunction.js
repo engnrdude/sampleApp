@@ -1,11 +1,10 @@
-import CommpanyLogo1 from "@/assets/companyone.PNG";
-import CommpanyLogo2 from "@/assets/companytwo.PNG";
-import CommpanyLogo3 from "@/assets/companythree.PNG";
-import FlagIcon from "@/assets/greekFlag.png";
+import CommpanyLogo1 from "@/app/assets/companyone.PNG";
+import CommpanyLogo2 from "@/app/assets/companytwo.PNG";
+import CommpanyLogo3 from "@/app/assets/companythree.PNG";
+import FlagIcon from "@/app/assets/greekFlag.png";
 
 export const HomeCardsData = [
-  {
-    title: "Search A Specific Book",       
+  {         
     id: 1,
     logo:CommpanyLogo1,
     flag:FlagIcon,
@@ -18,8 +17,7 @@ export const HomeCardsData = [
     description:"Blue Star Ferries is currently the biggest ferry company in Greece. It is a member of Attica Group, one of the most significant companies in the Greek shipping industry.Its fleet consists of vessels of the latest technology and serves itineraries starting from the port of Piraeus and heading to the islands of Cyclades (Mykonos, Santorini, Paros etc)Dodecanese (Rhodes, Kos etc). Blue Star Ferries reaches over 50 destinations in total. Even though Blue Star ..",
     moreText:"More about Blue Star Ferries",
   },
-  {
-    title: "Download the Book",       
+  {         
     id: 2,
     logo:CommpanyLogo2, 
     flag:FlagIcon,  
@@ -32,8 +30,7 @@ export const HomeCardsData = [
     description:"Seajets is the biggest company of high-speed vessels of the Aegean Sea. It is a joint venture of speedboats that was initially founded in 1989 to provide shipping services. The company's passenger ferries have been connecting over 26 destinations in the Aegean Sea since 2002. Their fleet consists of 14 high-speed catamarans and 3 conventional ones, with a speed of up to 50 knots.Seajets connect the main ports of Athens (Piraeus, Rafina and Lavrion),",
     moreText:"More about Seajets"
   },
-  {
-    title: "Search A Specific Book",       
+  {           
     id: 3,
     logo:CommpanyLogo3,  
     flag:FlagIcon,  

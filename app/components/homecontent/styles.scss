@@ -28,7 +28,7 @@
       .filter-search-container {
         display: flex;
         align-items: center;
-        column-gap: 13px;        
+        column-gap: 13px;
         .ant-btn-primary {
           width: 111px;
           height: 43px;
@@ -41,6 +41,9 @@
           font-weight: 300;
           font-family: "Poppins";
           box-shadow: none !important;
+          display: flex !important;
+          align-items: center !important;
+          column-gap: 10px !important;
           .ant-btn-icon {
             color: #1fb8d8 !important;
           }
