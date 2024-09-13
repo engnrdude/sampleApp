@@ -1,0 +1,112 @@
+.content-detail-card {
+  .ant-card-body {
+    padding: 16px 0px !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
+    box-shadow: none !important;
+  }
+  .detail-card-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    @media (max-width: 412px) {
+      flex-wrap: wrap;
+    }
+  }
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    @media (max-width: 412px) {
+      align-items: start;
+    }
+  }
+  .company-name-text {
+    font-size: 26px;
+    line-height: 30px;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-family: "Poppins";
+  }
+  .rate-customers {
+    font-size: 18px;
+    color: #252525;
+    font-weight: 300;
+    font-family: "Poppins";
+  }
+  .card-content-section {
+    display: flex;
+    margin: 0px 20px;
+    @media (max-width: 412px) {
+      flex-wrap: wrap;
+    }
+  }
+  .content-left-section {
+    width: 430px;
+  }
+  .content-right-section {
+    width: 430px;
+  }
+  .operation-country {
+    font-size: 17px;
+    color: #252525;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .flag-country {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .flag-image {
+    width: 20px;
+    height: 20px;
+  }
+  .country-name {
+    font-size: 17px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Poppins";
+  }
+  .vessel-number {
+    display: flex;
+    align-items: center;
+  }
+  .vessel-count {
+    font-size: 17px;
+    line-height: 23px;
+    color: #252525;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .popular-vessels-type {
+    font-size: 17px;
+    line-height: 23px;
+    color: #00afd3;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .description-text {
+    font-size: 17px;
+    line-height: 23px;
+    color: #252525;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: justify;
+  }
+  .read-more-button {
+    float: right;
+    background-color: #fdfdfd;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    line-height: 27px;
+    height: 45px;
+    color: #00afd4;
+    .ant-btn-icon {
+      border: 1px solid;
+      border-radius: 50%;
+      padding: 4px;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.home-container {
+  margin: 50px 240px;
+  @media (max-width: 412px) {
+    margin: 20px;
+  }
+  .top-heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    margin-bottom: 18px;
+    .heading-left-section {
+      .heading-text {
+        font-size: 37px;
+        line-height: 30px;
+        color: #1a1a1a;
+        font-weight: 600;
+        font-family: "Poppins";
+        margin-bottom: 20px;
+      }
+      .heading-description-text {
+        font-size: 18px;
+        color: #252525;
+        font-weight: 300;
+        font-family: "Poppins";
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      .filter-search-container {
+        display: flex;
+        align-items: center;
+        column-gap: 13px;        
+        .ant-btn-primary {
+          width: 111px;
+          height: 43px;
+          border-radius: 10px;
+          background-color: #fdfdfd;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          font-size: 18px;
+          line-height: 30px;
+          color: #000000;
+          font-weight: 300;
+          font-family: "Poppins";
+          box-shadow: none !important;
+          .ant-btn-icon {
+            color: #1fb8d8 !important;
+          }
+        }
+        .select-button {
+          width: 394px;
+          border-radius: 10px;
+          background-color: #fdfdfd;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          @media (max-width: 412px) {
+            width: 220px;
+          }
+        }
+        .ant-input-affix-wrapper {
+          width: 116px;
+          height: 33px;
+          border-radius: 10px;
+          background-color: #fdfdfd;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          @media (max-width: 412px) {
+            display: none;
+          }
+        }
+      }
+    }
+    .heading-right-section {
+      display: flex;
+      flex-direction: column;
+      row-gap: 48px;
+      align-items: flex-end;
+      @media (max-width: 412px) {
+        display: none;
+      }
+      .book-your-ticket {
+        width: 306px;
+        height: 47px;
+        border-radius: 10px;
+        background-color: #00afd3;
+        border: 0.02px solid #fddd04;
+        font-size: 21px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        .ant-btn-icon {
+          font-size: 12px !important;
+        }
+      }
+      .live-map-view {
+        width: 212px;
+        height: 43px;
+        border-radius: 10px;
+        background-color: #fdfdfd;
+        border: 1px solid rgba(0, 0, 0, 0.16);
+        font-size: 17px;
+        line-height: 27px;
+        color: #00afd4;
+        font-weight: 400;
+        font-family: "Poppins";
+      }
+    }
+  }
+}
