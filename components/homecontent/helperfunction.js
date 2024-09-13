@@ -1,7 +1,7 @@
-import CommpanyLogo1 from "../../assets/company1.PNG";
-import CommpanyLogo2 from "../../assets/company2.PNG";
-import CommpanyLogo3 from "../../assets/company3.PNG";
-import FlagIcon from "../../assets/greekFlag.png";
+import CommpanyLogo1 from "@/assets/companyone.PNG";
+import CommpanyLogo2 from "@/assets/companytwo.PNG";
+import CommpanyLogo3 from "@/assets/companythree.PNG";
+import FlagIcon from "@/assets/greekFlag.png";
 
 export const HomeCardsData = [
   {

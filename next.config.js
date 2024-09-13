@@ -4,13 +4,20 @@
 const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
+    // Transpile `rc-util` using babel-loader
     config.module.rules.push({
-      test: /\.node/,
-      use: 'raw-loader',
+      test: /\.js$/,
+      include: /node_modules\/rc-util/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['@babel/preset-env']
+        }
+      }
     });
- 
     return config;
   },
 }
 
 module.exports = nextConfig
+

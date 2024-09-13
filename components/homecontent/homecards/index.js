@@ -14,7 +14,7 @@ const ContentCards = () => {
               <Card className="content-detail-card">
                 <div className="detail-card-header-section">
                   <div className="left-section">
-                    <Image src={e?.logo} alt="#" />
+                    <Image src={e?.logo} alt="Company 1" />
                   </div>
                   <div className="right-section">
                     <div className="company-name-text">{e?.companyName}</div>
